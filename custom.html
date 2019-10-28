@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    var greeting = prompt("Let's customize your house?");
+    var windows = prompt("Do you want windows? (Y/N)");
+    var door = prompt("Do you want a door to your house? (Y/N)");
+    var chimney = prompt("Do you want a chimney on your house? (Y/N)");
+
+    if (windows === "Y" && door === "Y" && chimney === "Y") {
+      console.log("      ||");
+      console.log("   /\\ ||");
+      console.log("  /  \\||");
+      console.log(" /    ||");
+      console.log("/      \\");
+      console.log("/        \\");
+      console.log("|        |");
+      console.log("|  O  O  |");
+      console.log("|    _   |");
+      console.log("|   | |  |");
+      console.log("|   | |  |");
+    } else if (windows === "N" && door === "Y" && chimney === "Y") {
+      console.log("      ||");
+      console.log("   /\\ ||");
+      console.log("  /  \\||");
+      console.log(" /    ||");
+      console.log("/      \\");
+      console.log("/        \\");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|    _   |");
+      console.log("|   | |  |");
+      console.log("|   | |  |");
+    } else if (windows === "Y" && door === "N" && chimney === "Y") {
+      console.log("      ||");
+      console.log("   /\\ ||");
+      console.log("  /  \\||");
+      console.log(" /    ||");
+      console.log("/      \\");
+      console.log("/        \\");
+      console.log("|        |");
+      console.log("|  O  O  |");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+    } else if (windows === "Y" && door === "Y" && chimney === "N") {
+      console.log("      ");
+      console.log("   /\\ ");
+      console.log("  /  \\");
+      console.log(" /    \\");
+      console.log("/      \\");
+      console.log("/        \\");
+      console.log("|        |");
+      console.log("|  O  O  |");
+      console.log("|    _   |");
+      console.log("|   | |  |");
+      console.log("|   | |  |");
+    } else if (windows === "N" && door === "N" && chimney === "Y") {
+      console.log("      ||");
+      console.log("   /\\ ||");
+      console.log("  /  \\||");
+      console.log(" /    ||");
+      console.log("/      \\");
+      console.log("/        \\");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+    } else if (windows === "Y" && door === "N" && chimney === "N") {
+      console.log("      ");
+      console.log("   /\\ ");
+      console.log("  /  \\");
+      console.log(" /    \\");
+      console.log("/      \\");
+      console.log("/        \\");
+      console.log("|        |");
+      console.log("|  O  O  |");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+    } else {
+      console.log("      ");
+      console.log("   /\\ ");
+      console.log("  /  \\");
+      console.log(" /    \\");
+      console.log("/      \\");
+      console.log("/        \\");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+      console.log("|        |");
+    }
+
+  /*    ||
+   /\ ||
+  /  \||
+ /    ||
+/      \
+/        \
+|        |
+|  O  O  |
+|    _   |
+|   | |  |
+|   | |  |*/
+
+  </script>
+</body>
+</html>
